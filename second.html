@@ -2,83 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <title> Second web page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Services DiAl</title>
     <style>
-        body{
-            font-family: 'Times New Roman', Times, serif;
-            background-image: linear-gradient(to right,white, pink);
-            
+
+         #h1 {
+        
+        text-align: center;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #p{
+        text-align: center;
+        font-size: larger;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .container-fluid{
+        background-color: rgb(239, 237, 239);
+    }
+
+    #makeup{
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #hairstyle{
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #brows{
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .p{
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+    .h3{
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: white;
+       
+        
+
+    }
+    body{
+        background-image: url("bimg.png");
+        background-size: cover;
+        
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     
-            color:black;
-        }
-        a{
-            color: black;
-            float: right;
-        }
-        h1{
-            border-style:groove;
-            background-image:linear-gradient(to right,peachpuff,azure);
-        }
-        #p1{
-            font-family: 'Times New Roman', Times, serif;
-            padding-bottom: 10%;
-            padding-left: 10%;
-            padding-right: 10%;
-            font-size: large;
-            margin-left: 250px;
-            text-align: center;
-            border-radius: 25px;
-            background-color: azure;
-            border: 2px solid;
-            padding: 10%;
-            width: 200px;
-            height: 150px;
-        }
-        #p2{
-            font-family: 'Times New Roman', Times, serif;
-            padding-bottom: 5%;
-            padding-left: 3%;
-            padding-right: 50%;
-            text-align: left;
-            font-size: large;
-            border-radius: 25px;
-            background-color: peachpuff;
-            border: 2px solid;
-            width: 200px;
-            height: 150px;
-
-        }
-        #p3{
-            font-family: 'Times New Roman', Times, serif;
-            padding-bottom: 5%;
-            padding-left: 3%;
-            padding-right: 50%;
-            text-align: left;
-            font-size: large;
-            border-radius: 25px;
-            background-color: rosybrown;
-            border: 2px solid;
-            width: 200px;
-            height: 150px;
-
-        }
+       
 
     </style>
    
 </head>
 <body>
-    <a target ="_blank" href="http://127.0.0.1:5500/index.html">Link to index.html</a>
-    <h1>My second web page</h1>
-    <p id = "p1">There's some text for my page. <br> <br> This is a textbox
-        with rounded corners. <br> <br>
-        Background color is azure. <br>
-        <a href="#p2">Link to Second heading</a> <br>
-        <a href="#p3">Link to Third heading</a>
-    </p>
-<h2 id ="h2"> Second heading of my page</h2>
-<p id = "p2">Some text </p>
-<h2 id ="h2-3">Third heading of my page</h2>
-<p id = "p3"> Some text</p>        
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">DiAl Image</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+        <li> <a href="http://127.0.0.1:5500/second.html">Services</a></li>
+            <li><a href="http://127.0.0.1:5500/third.html">Booking</a></li>
+            <li><a href="http://127.0.0.1:5500/fourth.html">Gallery</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <h1 id="h1">DiAl Image</h1>
+       <p id="p">Makeup and Hairstyle</p>
+       <div class="h3"><h3> All the services and prices are introduced <a href="https://timma.fi/yritys/dial-image">here</a></h3></div>
+          
 </body>
 </html>

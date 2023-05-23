@@ -2,90 +2,85 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title> My web site </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>Booking DiAl</title>
 
-        <style>
+
+       <style>
+         #h1 {
+        
+        text-align: center;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #p{
+        text-align: center;
+        font-size: larger;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+         .container-fluid{
+        background-color: rgb(239, 237, 239);
+    }
+    h3{
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    p{
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+    .divp{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: aliceblue;
+        position:absolute;
+    }
+    body{
+        background-image: url("lala.png");
+        background-size: cover;
+        
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+       </style>
            
-            h1{
-                background-color: black;
-                color: white;
-                
-                padding: 30px;;
-                text-align: center;
-                font-size: 35px;
-                font-family: 'Times New Roman', Times, serif;
-            
-
-            }
-            
-            h3{
-                background-color: grey;
-                color: white;
-                padding-top: 2%;
-                text-align: center;
-                padding-bottom: 2%;
-                color: white;
-            text-decoration: none;
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: 100;
-            }
-    
-           
-            h2{
-                font-family: 'Times New Roman', Times, serif;
-                
-            
-
-            }
-            p{
-                font-family: 'Times New Roman', Times, serif;
-
-            }
-            #cities_text{
-                font-family: 'Times New Roman', Times, serif;
-                color: black;
-                font-weight:bolder;
-                background-color: aliceblue;
-                float:left;
-                width: 30%;
-                height: 300px;
-            }
-
-            #div{
-                float: left;
-                width: 30%;
-                height: 300px;
-                padding: 20px;
-               
-            }
-
-            .first_link{
-                color: white;
-            }
-            .cities_links{
-                color: black;
-                background-color: aliceblue;
-            }
-           
-            #cities_div{
-                
-            
-            }
-            
-  
-
-        </style>
-
     </head>
     <body>
-        <h1>My Website</h1>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">DiAl Image</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li> <a href="http://127.0.0.1:5500/second.html">Services</a></li>
+                <li><a href="http://127.0.0.1:5500/third.html">Booking</a></li>
+                <li><a href="http://127.0.0.1:5500/fourth.html">Gallery</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="container">
+            <h1 id="h1">DiAl Image</h1>
+           <p id="p">Makeup and Hairstyle</p>
+           <br>
+           <br>
+           <br>
+          
+           <div class="divp">
+            <p> <a href="https://timma.fi/yritys/dial-image"> Online booking</a> <br> <br></p>
+           <p>Whatsapp: +358 468 1213 12 <br> <br></p>
+          <p>Instagram: <a href="https://www.instagram.com/dianaa_makeupartist/">@dianaa_makeupartist</a> <br> <br></p>
+          <p>Email: diana.makeupartist@gmail.com</p>
+        </div>
+    
        
-        <h3><a href="http://127.0.0.1:5500/index.html" class="first_link">First</a>
-        <a href="http://127.0.0.1:5500/second.html" class ="first_link">Second</a></h3>
-        <p id ="cities_text"> <a href="https://fi.wikipedia.org/wiki/Helsinki " class ="cities_links">Helsinki</a>  <br> <br> <a href="https://en.wikipedia.org/wiki/Stockholm" class="cities_links">Stockholm </a> <br> <br> <a href="https://en.wikipedia.org/wiki/Tallinn" class="cities_links">Tallinn</a> </p>
-
-        <div id = "div"> <h2>Third page</h2>
-        <p>This is my third page</p> </div>
        
         
     </body>
